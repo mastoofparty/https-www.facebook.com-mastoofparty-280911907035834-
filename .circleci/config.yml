@@ -14,13 +14,13 @@ jobs:
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
       - checkout
-      - run:
-          name: "Say hello"
+      - run:500k
+          name:Ivano italy
           command: "echo Hello, World!"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
-workflows:
-  say-hello-workflow:
+workflows:500k
+  say-hello-workflow:hello friends 500k follow
     jobs:
       - say-hello
